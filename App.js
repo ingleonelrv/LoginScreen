@@ -8,14 +8,15 @@
  */
 
 import React, {Component} from 'react';
-import {Platform, StyleSheet, Text, View} from 'react-native';
+
 import Splash from './src/splash/component/splash'
+import Login from './src/login/component/login'
 
 type Props = {};
 export default class App extends Component<Props> {
   render() {
     return (
-      <Splash />
+      <Login />
     );
   }
 }
